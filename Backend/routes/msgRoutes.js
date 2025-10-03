@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Msg = require('../models/msg'); // make sure this path is correct
+const Msg = require('../models/Msg'); // make sure this path is correct
 
 // POST: Save EMI Calculation
 router.post('/save', async (req, res) => {
